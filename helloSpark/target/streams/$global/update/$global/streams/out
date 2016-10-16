@@ -45,7 +45,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/2.0.1/spark-core_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/2.0.1/spark-core_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/2.0.1/spark-core_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-core_2.10;2.0.1!spark-core_2.10.pom(pom.original) (193ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-core_2.10;2.0.1!spark-core_2.10.pom(pom.original) (518ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;2.0.1 {}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
@@ -59,7 +59,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/2.0.1/spark-parent_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/2.0.1/spark-parent_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-parent_2.10/2.0.1/spark-parent_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-parent_2.10;2.0.1!spark-parent_2.10.pom(pom.original) (385ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-parent_2.10;2.0.1!spark-parent_2.10.pom(pom.original) (427ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache#apache;14 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache#apache;14 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache#apache;14[0m
@@ -1909,7 +1909,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.10/2.0.1/spark-launcher_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.10/2.0.1/spark-launcher_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.10/2.0.1/spark-launcher_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.10;2.0.1!spark-launcher_2.10.pom(pom.original) (147ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.10;2.0.1!spark-launcher_2.10.pom(pom.original) (446ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;2.0.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;2.0.1[0m
@@ -1929,7 +1929,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.10/2.0.1/spark-tags_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.10/2.0.1/spark-tags_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.10/2.0.1/spark-tags_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-tags_2.10;2.0.1!spark-tags_2.10.pom(pom.original) (136ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-tags_2.10;2.0.1!spark-tags_2.10.pom(pom.original) (181ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;2.0.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;2.0.1[0m
@@ -2001,7 +2001,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/2.0.1/spark-network-common_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/2.0.1/spark-network-common_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/2.0.1/spark-network-common_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.10;2.0.1!spark-network-common_2.10.pom(pom.original) (153ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.10;2.0.1!spark-network-common_2.10.pom(pom.original) (151ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;2.0.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;2.0.1[0m
@@ -2084,7 +2084,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/2.0.1/spark-network-shuffle_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/2.0.1/spark-network-shuffle_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/2.0.1/spark-network-shuffle_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.10;2.0.1!spark-network-shuffle_2.10.pom(pom.original) (147ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.10;2.0.1!spark-network-shuffle_2.10.pom(pom.original) (142ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;2.0.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;2.0.1[0m
@@ -2118,7 +2118,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.10/2.0.1/spark-unsafe_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.10/2.0.1/spark-unsafe_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.10/2.0.1/spark-unsafe_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-unsafe_2.10;2.0.1!spark-unsafe_2.10.pom(pom.original) (145ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-unsafe_2.10;2.0.1!spark-unsafe_2.10.pom(pom.original) (314ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;2.0.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;2.0.1[0m
@@ -3023,7 +3023,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/2.0.1/spark-sql_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/2.0.1/spark-sql_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/2.0.1/spark-sql_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sql_2.10;2.0.1!spark-sql_2.10.pom(pom.original) (153ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sql_2.10;2.0.1!spark-sql_2.10.pom(pom.original) (347ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;2.0.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;2.0.1[0m
@@ -3052,7 +3052,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.10/2.0.1/spark-sketch_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.10/2.0.1/spark-sketch_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.10/2.0.1/spark-sketch_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sketch_2.10;2.0.1!spark-sketch_2.10.pom(pom.original) (139ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sketch_2.10;2.0.1!spark-sketch_2.10.pom(pom.original) (341ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;2.0.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;2.0.1[0m
@@ -3086,7 +3086,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/2.0.1/spark-catalyst_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/2.0.1/spark-catalyst_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/2.0.1/spark-catalyst_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.10;2.0.1!spark-catalyst_2.10.pom(pom.original) (155ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.10;2.0.1!spark-catalyst_2.10.pom(pom.original) (262ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;2.0.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;2.0.1[0m
@@ -3290,7 +3290,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-repl_2.10/2.0.1/spark-repl_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-repl_2.10/2.0.1/spark-repl_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-repl_2.10/2.0.1/spark-repl_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-repl_2.10;2.0.1!spark-repl_2.10.pom(pom.original) (155ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-repl_2.10;2.0.1!spark-repl_2.10.pom(pom.original) (156ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;2.0.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;2.0.1[0m
@@ -3363,7 +3363,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/2.0.1/spark-mllib_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/2.0.1/spark-mllib_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/2.0.1/spark-mllib_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.10;2.0.1!spark-mllib_2.10.pom(pom.original) (151ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.10;2.0.1!spark-mllib_2.10.pom(pom.original) (967ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;2.0.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;2.0.1[0m
@@ -3385,7 +3385,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/2.0.1/spark-streaming_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/2.0.1/spark-streaming_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/2.0.1/spark-streaming_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-streaming_2.10;2.0.1!spark-streaming_2.10.pom(pom.original) (160ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-streaming_2.10;2.0.1!spark-streaming_2.10.pom(pom.original) (475ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;2.0.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;2.0.1[0m
@@ -3425,7 +3425,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/2.0.1/spark-graphx_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/2.0.1/spark-graphx_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/2.0.1/spark-graphx_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;2.0.1!spark-graphx_2.10.pom(pom.original) (148ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;2.0.1!spark-graphx_2.10.pom(pom.original) (273ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;2.0.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;2.0.1[0m
@@ -3479,7 +3479,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib-local_2.10/2.0.1/spark-mllib-local_2.10-2.0.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib-local_2.10/2.0.1/spark-mllib-local_2.10-2.0.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-mllib-local_2.10/2.0.1/spark-mllib-local_2.10-2.0.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-mllib-local_2.10;2.0.1!spark-mllib-local_2.10.pom(pom.original) (142ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-mllib-local_2.10;2.0.1!spark-mllib-local_2.10.pom(pom.original) (803ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.spark#spark-parent_2.10;2.0.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.spark#spark-parent_2.10;2.0.1 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.spark#spark-parent_2.10;2.0.1[0m
@@ -9762,7 +9762,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jpmml#pmml-schema;1.2.15!pmml-schema.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5938ms :: artifacts dl 51ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 11253ms :: artifacts dl 50ms[0m
 [0m[[0mdebug[0m] [0m	report for default#hellospark_2.10;2.1 compile produced in /Users/maxday/Desktop/spark.samples/helloSpark/target/resolution-cache/reports/default-hellospark_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#hellospark_2.10;2.1 runtime produced in /Users/maxday/Desktop/spark.samples/helloSpark/target/resolution-cache/reports/default-hellospark_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#hellospark_2.10;2.1 test produced in /Users/maxday/Desktop/spark.samples/helloSpark/target/resolution-cache/reports/default-hellospark_2.10-test.xml[0m
@@ -9776,5 +9776,5 @@
 [0m[[0mdebug[0m] [0m	report for default#hellospark_2.10;2.1 docs produced in /Users/maxday/Desktop/spark.samples/helloSpark/target/resolution-cache/reports/default-hellospark_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#hellospark_2.10;2.1 pom produced in /Users/maxday/Desktop/spark.samples/helloSpark/target/resolution-cache/reports/default-hellospark_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#hellospark_2.10;2.1 scala-tool produced in /Users/maxday/Desktop/spark.samples/helloSpark/target/resolution-cache/reports/default-hellospark_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (5938ms resolve - 51ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (11253ms resolve - 50ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

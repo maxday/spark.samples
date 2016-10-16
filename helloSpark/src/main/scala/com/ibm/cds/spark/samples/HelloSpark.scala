@@ -27,15 +27,15 @@ object HelloSpark {
 
   //main method invoked when running as a standalone Spark Application
   def main(args: Array[String]) {
-    val conf = new org.apache.spark.SparkConf().setAppName("Hello Spark").setMaster("local")
+    /*val conf = new org.apache.spark.SparkConf().setAppName("Hello Spark").setMaster("local")
     val spark = new SparkContext(conf)
 
     println("Hello Spark Demo. Compute the mean and variance of a collection")
-    val stats = computeStatsForCollection(spark);
-    println(">>> Results: ")
-    println(">>>>>>>Mean: " + stats._1 );
+    val stats = computeStatsForCollection(spark);*/
+    println(">>> Resultats: ")
+    /*println(">>>>>>>Mean: " + stats._1 );
     println(">>>>>>>Variancee: " + stats._2);
-    spark.stop()
+    spark.stop()/""*/
   }
 
   //Library method that can be invoked from Jupyter Notebook

@@ -34,7 +34,7 @@ object HelloSpark {
     val stats = computeStatsForCollection(spark);
     println(">>> Results: ")
     println(">>>>>>>Mean: " + stats._1 );
-    println(">>>>>>>Variance: " + stats._2);
+    println(">>>>>>>Variancee: " + stats._2);
     spark.stop()
   }
 

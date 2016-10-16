@@ -54,7 +54,7 @@ import org.apache.spark.Logging
 /**
  * @author dtaieb
  */
-object StreamingTwitter extends Logging{
+object StreamingTwitter extends Logging {
   var ssc: StreamingContext = null
   var sqlContext: SQLContext = null
   var workingRDD: RDD[Row] = null

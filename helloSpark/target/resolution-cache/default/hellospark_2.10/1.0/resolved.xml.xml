@@ -2,9 +2,9 @@
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
 	<info organisation="default"
 		module="hellospark_2.10"
-		revision="2.1"
+		revision="1.0"
 		status="integration"
-		publication="20161016223222"
+		publication="20161016221700"
 	>
 		<description>
 		helloSpark
@@ -34,8 +34,7 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="org.apache.spark" name="spark-core_2.10" rev="1.6.0" conf="provided->default(compile)"/>
-		<dependency org="org.apache.spark" name="spark-sql_2.10" rev="1.6.0" conf="provided->default(compile)"/>
-		<dependency org="org.apache.spark" name="spark-repl_2.10" rev="1.6.0" conf="provided->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-core_2.10" rev="1.3.0" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-sql_2.10" rev="1.3.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -211,7 +211,7 @@ object StreamingTwitter extends Logging{
     }
     ssc.start()
 
-    println("Twitter stream started");
+    println("Twitter stream started LinkedIn only");
     println("Tweets are collected real-time and analyzed")
     println("To stop the streaming and start interacting with the data use: StreamingTwitter.stopTwitterStreaming")
 

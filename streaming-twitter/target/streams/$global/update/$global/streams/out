@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#streaming-twitter_2.10;1.6 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#streaming-twitter_2.10;1.6->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a7836b7[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@769fa457[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
@@ -12913,1054 +12913,160 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sf.jopt-simple#jopt-simple;3.2!jopt-simple.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.6!zookeeper.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;0.9.94!jline.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/io.netty/netty/3.7.0.Final/bundles/netty.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.netty#netty;3.7.0.Final!netty.jar(bundle) (9167ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/junit/junit/3.8.1/jars/junit.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] junit#junit;3.8.1!junit.jar (821ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.spark/spark-core_2.10/1.6.0/jars/spark-core_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.6.0/spark-core_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.6.0/spark-core_2.10-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.6.0/spark-core_2.10-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.6.0/spark-core_2.10-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.10/1.6.0/spark-core_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-core_2.10;1.6.0!spark-core_2.10.jar (46770ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.spark/spark-sql_2.10/1.6.0/jars/spark-sql_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.6.0/spark-sql_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.6.0/spark-sql_2.10-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.6.0/spark-sql_2.10-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.6.0/spark-sql_2.10-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.10/1.6.0/spark-sql_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-sql_2.10;1.6.0!spark-sql_2.10.jar (14753ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.spark/spark-streaming_2.10/1.6.0/jars/spark-streaming_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.6.0/spark-streaming_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.6.0/spark-streaming_2.10-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.6.0/spark-streaming_2.10-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.6.0/spark-streaming_2.10-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-streaming_2.10/1.6.0/spark-streaming_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-streaming_2.10;1.6.0!spark-streaming_2.10.jar (11070ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.spark/spark-repl_2.10/1.6.0/jars/spark-repl_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-repl_2.10/1.6.0/spark-repl_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-repl_2.10/1.6.0/spark-repl_2.10-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-repl_2.10/1.6.0/spark-repl_2.10-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-repl_2.10/1.6.0/spark-repl_2.10-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-repl_2.10/1.6.0/spark-repl_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-repl_2.10;1.6.0!spark-repl_2.10.jar (3566ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.avro/avro-mapred/1.7.7/jars/avro-mapred-hadoop2.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-hadoop2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-hadoop2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-hadoop2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-hadoop2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.7.7/avro-mapred-1.7.7-hadoop2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.avro#avro-mapred;1.7.7!avro-mapred.jar (1435ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.twitter/chill_2.10/0.5.0/jars/chill_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/twitter/chill_2.10/0.5.0/chill_2.10-0.5.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/twitter/chill_2.10/0.5.0/chill_2.10-0.5.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/twitter/chill_2.10/0.5.0/chill_2.10-0.5.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/twitter/chill_2.10/0.5.0/chill_2.10-0.5.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/twitter/chill_2.10/0.5.0/chill_2.10-0.5.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.twitter#chill_2.10;0.5.0!chill_2.10.jar (1435ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.twitter/chill-java/0.5.0/jars/chill-java.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/twitter/chill-java/0.5.0/chill-java-0.5.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/twitter/chill-java/0.5.0/chill-java-0.5.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/twitter/chill-java/0.5.0/chill-java-0.5.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/twitter/chill-java/0.5.0/chill-java-0.5.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/twitter/chill-java/0.5.0/chill-java-0.5.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.twitter#chill-java;0.5.0!chill-java.jar (603ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.xbean/xbean-asm5-shaded/4.4/bundles/xbean-asm5-shaded.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/xbean/xbean-asm5-shaded/4.4/xbean-asm5-shaded-4.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.xbean#xbean-asm5-shaded;4.4!xbean-asm5-shaded.jar(bundle) (952ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-client/2.2.0/jars/hadoop-client.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-client/2.2.0/hadoop-client-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-client/2.2.0/hadoop-client-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-client/2.2.0/hadoop-client-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-client/2.2.0/hadoop-client-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-client/2.2.0/hadoop-client-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-client;2.2.0!hadoop-client.jar (426ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.spark/spark-launcher_2.10/1.6.0/jars/spark-launcher_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.10/1.6.0/spark-launcher_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.10/1.6.0/spark-launcher_2.10-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.10/1.6.0/spark-launcher_2.10-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.10/1.6.0/spark-launcher_2.10-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.10/1.6.0/spark-launcher_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-launcher_2.10;1.6.0!spark-launcher_2.10.jar (645ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.spark/spark-network-common_2.10/1.6.0/jars/spark-network-common_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.6.0/spark-network-common_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.6.0/spark-network-common_2.10-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.6.0/spark-network-common_2.10-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.6.0/spark-network-common_2.10-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.10/1.6.0/spark-network-common_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-common_2.10;1.6.0!spark-network-common_2.10.jar (8236ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.spark/spark-network-shuffle_2.10/1.6.0/jars/spark-network-shuffle_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.6.0/spark-network-shuffle_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.6.0/spark-network-shuffle_2.10-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.6.0/spark-network-shuffle_2.10-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.6.0/spark-network-shuffle_2.10-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.10/1.6.0/spark-network-shuffle_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-network-shuffle_2.10;1.6.0!spark-network-shuffle_2.10.jar (686ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.spark/spark-unsafe_2.10/1.6.0/jars/spark-unsafe_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.10/1.6.0/spark-unsafe_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.10/1.6.0/spark-unsafe_2.10-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.10/1.6.0/spark-unsafe_2.10-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.10/1.6.0/spark-unsafe_2.10-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.10/1.6.0/spark-unsafe_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-unsafe_2.10;1.6.0!spark-unsafe_2.10.jar (556ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/net.java.dev.jets3t/jets3t/0.7.1/jars/jets3t.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.7.1/jets3t-0.7.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.java.dev.jets3t#jets3t;0.7.1!jets3t.jar (1999ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.curator/curator-recipes/2.4.0/bundles/curator-recipes.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.curator#curator-recipes;2.4.0!curator-recipes.jar(bundle) (1107ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.eclipse.jetty.orbit/javax.servlet/3.0.0.v201112011016/orbits/javax.servlet.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/eclipse/jetty/orbit/javax.servlet/3.0.0.v201112011016/javax.servlet-3.0.0.v201112011016.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit) (990ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.commons/commons-lang3/3.3.2/jars/commons-lang3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.3.2!commons-lang3.jar (1805ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.commons/commons-math3/3.4.1/jars/commons-math3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-math3;3.4.1!commons-math3.jar (6670ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.google.code.findbugs/jsr305/1.3.9/jars/jsr305.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar (506ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.slf4j/slf4j-api/1.7.10/jars/slf4j-api.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.10!slf4j-api.jar (507ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.slf4j/jul-to-slf4j/1.7.10/jars/jul-to-slf4j.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#jul-to-slf4j;1.7.10!jul-to-slf4j.jar (429ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.slf4j/jcl-over-slf4j/1.7.10/jars/jcl-over-slf4j.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#jcl-over-slf4j;1.7.10!jcl-over-slf4j.jar (471ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.slf4j/slf4j-log4j12/1.7.10/jars/slf4j-log4j12.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-log4j12;1.7.10!slf4j-log4j12.jar (441ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.ning/compress-lzf/1.0.3/bundles/compress-lzf.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.ning#compress-lzf;1.0.3!compress-lzf.jar(bundle) (663ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.xerial.snappy/snappy-java/1.1.2/bundles/snappy-java.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.xerial.snappy#snappy-java;1.1.2!snappy-java.jar(bundle) (3190ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/net.jpountz.lz4/lz4/1.3.0/jars/lz4.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.jpountz.lz4#lz4;1.3.0!lz4.jar (1306ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.roaringbitmap/RoaringBitmap/0.5.11/bundles/RoaringBitmap.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.roaringbitmap#RoaringBitmap;0.5.11!RoaringBitmap.jar(bundle) (1250ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/commons-net/commons-net/2.2/jars/commons-net.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-net/commons-net/2.2/commons-net-2.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/commons-net/commons-net/2.2/commons-net-2.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-net/commons-net/2.2/commons-net-2.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-net/commons-net/2.2/commons-net-2.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-net/commons-net/2.2/commons-net-2.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-net#commons-net;2.2!commons-net.jar (1351ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.typesafe.akka/akka-remote_2.10/2.3.11/jars/akka-remote_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.11/akka-remote_2.10-2.3.11.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.11/akka-remote_2.10-2.3.11.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.11/akka-remote_2.10-2.3.11.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.11/akka-remote_2.10-2.3.11.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.11/akka-remote_2.10-2.3.11.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.10;2.3.11!akka-remote_2.10.jar (5509ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.typesafe.akka/akka-slf4j_2.10/2.3.11/jars/akka-slf4j_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.3.11/akka-slf4j_2.10-2.3.11.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.3.11/akka-slf4j_2.10-2.3.11.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.3.11/akka-slf4j_2.10-2.3.11.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.3.11/akka-slf4j_2.10-2.3.11.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.3.11/akka-slf4j_2.10-2.3.11.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-slf4j_2.10;2.3.11!akka-slf4j_2.10.jar (474ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.json4s/json4s-jackson_2.10/3.2.10/jars/json4s-jackson_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.10/json4s-jackson_2.10-3.2.10.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.10/json4s-jackson_2.10-3.2.10.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.10/json4s-jackson_2.10-3.2.10.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.10/json4s-jackson_2.10-3.2.10.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/json4s/json4s-jackson_2.10/3.2.10/json4s-jackson_2.10-3.2.10.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.json4s#json4s-jackson_2.10;3.2.10!json4s-jackson_2.10.jar (600ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.sun.jersey/jersey-server/1.9/bundles/jersey-server.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.sun.jersey#jersey-server;1.9!jersey-server.jar(bundle) (3708ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.sun.jersey/jersey-core/1.9/bundles/jersey-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.sun.jersey#jersey-core;1.9!jersey-core.jar(bundle) (2896ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.mesos/mesos/0.21.1/jars/mesos-shaded-protobuf.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/mesos/mesos/0.21.1/mesos-0.21.1-shaded-protobuf.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/mesos/mesos/0.21.1/mesos-0.21.1-shaded-protobuf.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/mesos/mesos/0.21.1/mesos-0.21.1-shaded-protobuf.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/mesos/mesos/0.21.1/mesos-0.21.1-shaded-protobuf.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/mesos/mesos/0.21.1/mesos-0.21.1-shaded-protobuf.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.mesos#mesos;0.21.1!mesos.jar (4848ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/io.netty/netty-all/4.0.29.Final/jars/netty-all.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/io/netty/netty-all/4.0.29.Final/netty-all-4.0.29.Final.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.netty#netty-all;4.0.29.Final!netty-all.jar (6916ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.clearspring.analytics/stream/2.7.0/jars/stream.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.clearspring.analytics#stream;2.7.0!stream.jar (877ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/io.dropwizard.metrics/metrics-core/3.1.2/bundles/metrics-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.dropwizard.metrics#metrics-core;3.1.2!metrics-core.jar(bundle) (724ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/io.dropwizard.metrics/metrics-jvm/3.1.2/bundles/metrics-jvm.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-jvm/3.1.2/metrics-jvm-3.1.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-jvm/3.1.2/metrics-jvm-3.1.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-jvm/3.1.2/metrics-jvm-3.1.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-jvm/3.1.2/metrics-jvm-3.1.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-jvm/3.1.2/metrics-jvm-3.1.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.dropwizard.metrics#metrics-jvm;3.1.2!metrics-jvm.jar(bundle) (523ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/io.dropwizard.metrics/metrics-json/3.1.2/bundles/metrics-json.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-json/3.1.2/metrics-json-3.1.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-json/3.1.2/metrics-json-3.1.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-json/3.1.2/metrics-json-3.1.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-json/3.1.2/metrics-json-3.1.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-json/3.1.2/metrics-json-3.1.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.dropwizard.metrics#metrics-json;3.1.2!metrics-json.jar(bundle) (583ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/io.dropwizard.metrics/metrics-graphite/3.1.2/bundles/metrics-graphite.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.dropwizard.metrics#metrics-graphite;3.1.2!metrics-graphite.jar(bundle) (484ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.4.4/bundles/jackson-databind.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.4.4/jackson-databind-2.4.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.4.4!jackson-databind.jar(bundle) (4534ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.fasterxml.jackson.module/jackson-module-scala_2.10/2.4.4/bundles/jackson-module-scala_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.10/2.4.4/jackson-module-scala_2.10-2.4.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.10/2.4.4/jackson-module-scala_2.10-2.4.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.10/2.4.4/jackson-module-scala_2.10-2.4.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.10/2.4.4/jackson-module-scala_2.10-2.4.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.10/2.4.4/jackson-module-scala_2.10-2.4.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4!jackson-module-scala_2.10.jar(bundle) (2485ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.ivy/ivy/2.4.0/jars/ivy.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.ivy#ivy;2.4.0!ivy.jar (4076ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/oro/oro/2.0.8/jars/oro.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] oro#oro;2.0.8!oro.jar (593ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.tachyonproject/tachyon-client/0.8.2/jars/tachyon-client.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-client;0.8.2!tachyon-client.jar (8977ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/net.razorvine/pyrolite/4.9/jars/pyrolite.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/net/razorvine/pyrolite/4.9/pyrolite-4.9.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/net/razorvine/pyrolite/4.9/pyrolite-4.9.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/net/razorvine/pyrolite/4.9/pyrolite-4.9.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/net/razorvine/pyrolite/4.9/pyrolite-4.9.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/net/razorvine/pyrolite/4.9/pyrolite-4.9.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.razorvine#pyrolite;4.9!pyrolite.jar (882ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/net.sf.py4j/py4j/0.9/jars/py4j.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/net/sf/py4j/py4j/0.9/py4j-0.9.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/net/sf/py4j/py4j/0.9/py4j-0.9.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/net/sf/py4j/py4j/0.9/py4j-0.9.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/net/sf/py4j/py4j/0.9/py4j-0.9.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/net/sf/py4j/py4j/0.9/py4j-0.9.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.sf.py4j#py4j;0.9!py4j.jar (812ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.avro/avro-ipc/1.7.7/jars/avro-ipc-tests.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.avro/avro-ipc/1.7.7/jars/avro-ipc.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-tests.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-tests.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-tests.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-tests.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7-tests.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.avro#avro-ipc;1.7.7!avro-ipc.jar (1938ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/avro/avro-ipc/1.7.7/avro-ipc-1.7.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.avro#avro-ipc;1.7.7!avro-ipc.jar (1319ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.codehaus.jackson/jackson-core-asl/1.9.13/jars/jackson-core-asl.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-core-asl;1.9.13!jackson-core-asl.jar (1152ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/1.9.13/jars/jackson-mapper-asl.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-mapper-asl;1.9.13!jackson-mapper-asl.jar (4303ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.avro/avro/1.7.7/jars/avro.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.7/avro-1.7.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.avro#avro;1.7.7!avro.jar (1931ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.commons/commons-compress/1.4.1/jars/commons-compress.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-compress;1.4.1!commons-compress.jar (1351ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.tukaani/xz/1.0/jars/xz.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.tukaani#xz;1.0!xz.jar (722ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.esotericsoftware.kryo/kryo/2.21/bundles/kryo.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.21/kryo-2.21.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.esotericsoftware.kryo#kryo;2.21!kryo.jar(bundle) (1828ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.esotericsoftware.reflectasm/reflectasm/1.07/jars/reflectasm-shaded.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/esotericsoftware/reflectasm/reflectasm/1.07/reflectasm-1.07-shaded.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.esotericsoftware.reflectasm#reflectasm;1.07!reflectasm.jar (697ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.esotericsoftware.minlog/minlog/1.2/jars/minlog.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.esotericsoftware.minlog#minlog;1.2!minlog.jar (722ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.objenesis/objenesis/1.2/jars/objenesis.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.objenesis#objenesis;1.2!objenesis.jar (629ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-common/2.2.0/jars/hadoop-common.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.2.0/hadoop-common-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-common;2.2.0!hadoop-common.jar (11683ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-hdfs/2.2.0/jars/hadoop-hdfs.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.2.0/hadoop-hdfs-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-hdfs;2.2.0!hadoop-hdfs.jar (18724ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-app/2.2.0/jars/hadoop-mapreduce-client-app.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0!hadoop-mapreduce-client-app.jar (1919ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-yarn-api/2.2.0/jars/hadoop-yarn-api.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.jar (3934ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-core/2.2.0/jars/hadoop-mapreduce-client-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0!hadoop-mapreduce-client-core.jar (6975ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-jobclient/2.2.0/jars/hadoop-mapreduce-client-jobclient.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0!hadoop-mapreduce-client-jobclient.jar (528ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-annotations/2.2.0/jars/hadoop-annotations.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.2.0/hadoop-annotations-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-annotations;2.2.0!hadoop-annotations.jar (456ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/commons-cli/commons-cli/1.2/jars/commons-cli.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-cli#commons-cli;1.2!commons-cli.jar (547ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.commons/commons-math/2.1/jars/commons-math.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.1/commons-math-2.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-math;2.1!commons-math.jar (3408ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/xmlenc/xmlenc/0.52/jars/xmlenc.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/xmlenc/xmlenc/0.52/xmlenc-0.52.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/xmlenc/xmlenc/0.52/xmlenc-0.52.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/xmlenc/xmlenc/0.52/xmlenc-0.52.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/xmlenc/xmlenc/0.52/xmlenc-0.52.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/xmlenc/xmlenc/0.52/xmlenc-0.52.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] xmlenc#xmlenc;0.52!xmlenc.jar (467ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/commons-httpclient/commons-httpclient/3.1/jars/commons-httpclient.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar (1617ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/commons-lang/commons-lang/2.5/jars/commons-lang.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-lang/commons-lang/2.5/commons-lang-2.5.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/commons-lang/commons-lang/2.5/commons-lang-2.5.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-lang/commons-lang/2.5/commons-lang-2.5.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-lang/commons-lang/2.5/commons-lang-2.5.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-lang/commons-lang/2.5/commons-lang-2.5.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-lang#commons-lang;2.5!commons-lang.jar (1483ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/commons-configuration/commons-configuration/1.6/jars/commons-configuration.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-configuration#commons-configuration;1.6!commons-configuration.jar (1261ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.google.protobuf/protobuf-java/2.5.0/bundles/protobuf-java.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(bundle) (2037ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-auth/2.2.0/jars/hadoop-auth.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.2.0/hadoop-auth-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-auth;2.2.0!hadoop-auth.jar (637ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/commons-collections/commons-collections/3.2.1/jars/commons-collections.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-collections#commons-collections;3.2.1!commons-collections.jar (3322ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/commons-digester/commons-digester/1.8/jars/commons-digester.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-digester#commons-digester;1.8!commons-digester.jar (943ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/commons-beanutils/commons-beanutils-core/1.8.0/jars/commons-beanutils-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-beanutils#commons-beanutils-core;1.8.0!commons-beanutils-core.jar (1302ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/commons-beanutils/commons-beanutils/1.7.0/jars/commons-beanutils.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar (1092ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.mortbay.jetty/jetty-util/6.1.26/jars/jetty-util.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mortbay.jetty#jetty-util;6.1.26!jetty-util.jar (1126ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-common/2.2.0/jars/hadoop-mapreduce-client-common.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.jar (3056ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-mapreduce-client-shuffle/2.2.0/jars/hadoop-mapreduce-client-shuffle.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.jar (487ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-yarn-common/2.2.0/jars/hadoop-yarn-common.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.jar (5659ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-yarn-client/2.2.0/jars/hadoop-yarn-client.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-client;2.2.0!hadoop-yarn-client.jar (854ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-yarn-server-common/2.2.0/jars/hadoop-yarn-server-common.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-common;2.2.0!hadoop-yarn-server-common.jar (1297ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.google.inject/guice/3.0/jars/guice.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.google.inject#guice;3.0!guice.jar (2760ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.sun.jersey.jersey-test-framework/jersey-test-framework-grizzly2/1.9/jars/jersey-test-framework-grizzly2.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.9/jersey-test-framework-grizzly2-1.9.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.9/jersey-test-framework-grizzly2-1.9.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.9/jersey-test-framework-grizzly2-1.9.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.9/jersey-test-framework-grizzly2-1.9.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.9/jersey-test-framework-grizzly2-1.9.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9!jersey-test-framework-grizzly2.jar (457ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.sun.jersey/jersey-json/1.9/bundles/jersey-json.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.sun.jersey#jersey-json;1.9!jersey-json.jar(bundle) (880ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.sun.jersey.contribs/jersey-guice/1.9/jars/jersey-guice.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.sun.jersey.contribs#jersey-guice;1.9!jersey-guice.jar (464ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/javax.inject/javax.inject/1/jars/javax.inject.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] javax.inject#javax.inject;1!javax.inject.jar (437ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/aopalliance/aopalliance/1.0/jars/aopalliance.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] aopalliance#aopalliance;1.0!aopalliance.jar (441ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.sonatype.sisu.inject/cglib/2.2.1-v20090111/jars/cglib.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/sonatype/sisu/inject/cglib/2.2.1-v20090111/cglib-2.2.1-v20090111.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/sonatype/sisu/inject/cglib/2.2.1-v20090111/cglib-2.2.1-v20090111.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/sonatype/sisu/inject/cglib/2.2.1-v20090111/cglib-2.2.1-v20090111.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/sonatype/sisu/inject/cglib/2.2.1-v20090111/cglib-2.2.1-v20090111.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/sonatype/sisu/inject/cglib/2.2.1-v20090111/cglib-2.2.1-v20090111.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.sonatype.sisu.inject#cglib;2.2.1-v20090111!cglib.jar (1298ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/asm/asm/3.1/jars/asm.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] asm#asm;3.1!asm.jar (578ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.codehaus.jettison/jettison/1.1/bundles/jettison.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.jettison#jettison;1.1!jettison.jar(bundle) (683ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.codehaus.jackson/jackson-jaxrs/1.8.3/jars/jackson-jaxrs.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.8.3/jackson-jaxrs-1.8.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-jaxrs;1.8.3!jackson-jaxrs.jar (641ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.codehaus.jackson/jackson-xc/1.8.3/jars/jackson-xc.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.8.3/jackson-xc-1.8.3.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.8.3/jackson-xc-1.8.3.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.8.3/jackson-xc-1.8.3.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.8.3/jackson-xc-1.8.3.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.8.3/jackson-xc-1.8.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-xc;1.8.3!jackson-xc.jar (552ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/stax/stax-api/1.0.1/jars/stax-api.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] stax#stax-api;1.0.1!stax-api.jar (523ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.hadoop/hadoop-yarn-server-nodemanager/2.2.0/jars/hadoop-yarn-server-nodemanager.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0!hadoop-yarn-server-nodemanager.jar (2780ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.fusesource.leveldbjni/leveldbjni-all/1.8/bundles/leveldbjni-all.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-all;1.8!leveldbjni-all.jar(bundle) (4264ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.fasterxml.jackson.core/jackson-annotations/2.4.4/bundles/jackson-annotations.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.4.4/jackson-annotations-2.4.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.4.4/jackson-annotations-2.4.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.4.4/jackson-annotations-2.4.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.4.4/jackson-annotations-2.4.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.4.4/jackson-annotations-2.4.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.4.4!jackson-annotations.jar(bundle) (688ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.4.4/bundles/jackson-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.4.4/jackson-core-2.4.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.4.4!jackson-core.jar(bundle) (1613ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.curator/curator-framework/2.4.0/bundles/curator-framework.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/curator/curator-framework/2.4.0/curator-framework-2.4.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.curator#curator-framework;2.4.0!curator-framework.jar(bundle) (1218ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.zookeeper/zookeeper/3.4.5/jars/zookeeper.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.5/zookeeper-3.4.5.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.zookeeper#zookeeper;3.4.5!zookeeper.jar (3619ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.curator/curator-client/2.4.0/bundles/curator-client.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/curator/curator-client/2.4.0/curator-client-2.4.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.curator#curator-client;2.4.0!curator-client.jar(bundle) (681ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.typesafe.akka/akka-actor_2.10/2.3.11/jars/akka-actor_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.10;2.3.11!akka-actor_2.10.jar (9308ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/io.netty/netty/3.8.0.Final/bundles/netty.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] io.netty#netty;3.8.0.Final!netty.jar(bundle) (5099ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.uncommons.maths/uncommons-maths/1.2.2a/jars/uncommons-maths.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar (585ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.typesafe/config/1.2.1/bundles/config.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.2.1/config-1.2.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#config;1.2.1!config.jar(bundle) (1356ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.7.0.Final!netty.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;3.8.1!junit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-core_2.10;1.6.0!spark-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-sql_2.10;1.6.0!spark-sql_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-streaming_2.10;1.6.0!spark-streaming_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-repl_2.10;1.6.0!spark-repl_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.avro#avro-mapred;1.7.7!avro-mapred.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#chill_2.10;0.5.0!chill_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.twitter#chill-java;0.5.0!chill-java.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.xbean#xbean-asm5-shaded;4.4!xbean-asm5-shaded.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-client;2.2.0!hadoop-client.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-launcher_2.10;1.6.0!spark-launcher_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-network-common_2.10;1.6.0!spark-network-common_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-network-shuffle_2.10;1.6.0!spark-network-shuffle_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-unsafe_2.10;1.6.0!spark-unsafe_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.java.dev.jets3t#jets3t;0.7.1!jets3t.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.curator#curator-recipes;2.4.0!curator-recipes.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty.orbit#javax.servlet;3.0.0.v201112011016!javax.servlet.jar(orbit)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-lang3;3.3.2!commons-lang3.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-math3;3.4.1!commons-math3.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.10!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.10!jul-to-slf4j.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.10!jcl-over-slf4j.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.10!slf4j-log4j12.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.ning#compress-lzf;1.0.3!compress-lzf.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.xerial.snappy#snappy-java;1.1.2!snappy-java.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.jpountz.lz4#lz4;1.3.0!lz4.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.roaringbitmap#RoaringBitmap;0.5.11!RoaringBitmap.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-net#commons-net;2.2!commons-net.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-remote_2.10;2.3.11!akka-remote_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.10;2.3.11!akka-slf4j_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json4s#json4s-jackson_2.10;3.2.10!json4s-jackson_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.sun.jersey#jersey-server;1.9!jersey-server.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.sun.jersey#jersey-core;1.9!jersey-core.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.mesos#mesos;0.21.1!mesos.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty-all;4.0.29.Final!netty-all.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.clearspring.analytics#stream;2.7.0!stream.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.dropwizard.metrics#metrics-core;3.1.2!metrics-core.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.dropwizard.metrics#metrics-jvm;3.1.2!metrics-jvm.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.dropwizard.metrics#metrics-json;3.1.2!metrics-json.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.dropwizard.metrics#metrics-graphite;3.1.2!metrics-graphite.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.4.4!jackson-databind.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-scala_2.10;2.4.4!jackson-module-scala_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.ivy#ivy;2.4.0!ivy.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] oro#oro;2.0.8!oro.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tachyonproject#tachyon-client;0.8.2!tachyon-client.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.razorvine#pyrolite;4.9!pyrolite.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sf.py4j#py4j;0.9!py4j.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.avro#avro-ipc;1.7.7!avro-ipc.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.avro#avro-ipc;1.7.7!avro-ipc.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-core-asl;1.9.13!jackson-core-asl.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-mapper-asl;1.9.13!jackson-mapper-asl.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.avro#avro;1.7.7!avro.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-compress;1.4.1!commons-compress.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tukaani#xz;1.0!xz.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.esotericsoftware.kryo#kryo;2.21!kryo.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.esotericsoftware.reflectasm#reflectasm;1.07!reflectasm.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.esotericsoftware.minlog#minlog;1.2!minlog.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.objenesis#objenesis;1.2!objenesis.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-common;2.2.0!hadoop-common.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-hdfs;2.2.0!hadoop-hdfs.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-app;2.2.0!hadoop-mapreduce-client-app.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-api;2.2.0!hadoop-yarn-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-core;2.2.0!hadoop-mapreduce-client-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-jobclient;2.2.0!hadoop-mapreduce-client-jobclient.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-annotations;2.2.0!hadoop-annotations.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-cli#commons-cli;1.2!commons-cli.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-math;2.1!commons-math.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] xmlenc#xmlenc;0.52!xmlenc.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-lang#commons-lang;2.5!commons-lang.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-configuration#commons-configuration;1.6!commons-configuration.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-auth;2.2.0!hadoop-auth.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-digester#commons-digester;1.8!commons-digester.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-beanutils#commons-beanutils-core;1.8.0!commons-beanutils-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-beanutils#commons-beanutils;1.7.0!commons-beanutils.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mortbay.jetty#jetty-util;6.1.26!jetty-util.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-common;2.2.0!hadoop-mapreduce-client-common.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-mapreduce-client-shuffle;2.2.0!hadoop-mapreduce-client-shuffle.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-common;2.2.0!hadoop-yarn-common.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-client;2.2.0!hadoop-yarn-client.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-server-common;2.2.0!hadoop-yarn-server-common.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.inject#guice;3.0!guice.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.sun.jersey.jersey-test-framework#jersey-test-framework-grizzly2;1.9!jersey-test-framework-grizzly2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.sun.jersey#jersey-json;1.9!jersey-json.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.sun.jersey.contribs#jersey-guice;1.9!jersey-guice.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.sonatype.sisu.inject#cglib;2.2.1-v20090111!cglib.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] asm#asm;3.1!asm.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jettison#jettison;1.1!jettison.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-jaxrs;1.8.3!jackson-jaxrs.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.jackson#jackson-xc;1.8.3!jackson-xc.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] stax#stax-api;1.0.1!stax-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.hadoop#hadoop-yarn-server-nodemanager;2.2.0!hadoop-yarn-server-nodemanager.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.leveldbjni#leveldbjni-all;1.8!leveldbjni-all.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.4.4!jackson-annotations.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.4.4!jackson-core.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.curator#curator-framework;2.4.0!curator-framework.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.zookeeper#zookeeper;3.4.5!zookeeper.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.curator#curator-client;2.4.0!curator-client.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.10;2.3.11!akka-actor_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json4s#json4s-core_2.10;3.2.10!json4s-core_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.json4s#json4s-ast_2.10;3.2.10!json4s-ast_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.6!paranamer.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.scala-lang/scalap/2.10.0/jars/scalap.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scalap/2.10.0/scalap-2.10.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scalap;2.10.0!scalap.jar (3791ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/commons-io/commons-io/2.4/jars/commons-io.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.jar (1076ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.tachyonproject/tachyon-underfs-hdfs/0.8.2/jars/tachyon-underfs-hdfs.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-underfs-hdfs;0.8.2!tachyon-underfs-hdfs.jar (446ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.tachyonproject/tachyon-underfs-s3/0.8.2/jars/tachyon-underfs-s3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-underfs-s3;0.8.2!tachyon-underfs-s3.jar (2463ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.tachyonproject/tachyon-underfs-local/0.8.2/jars/tachyon-underfs-local.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.tachyonproject#tachyon-underfs-local;0.8.2!tachyon-underfs-local.jar (828ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.spark/spark-catalyst_2.10/1.6.0/jars/spark-catalyst_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.6.0/spark-catalyst_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.6.0/spark-catalyst_2.10-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.6.0/spark-catalyst_2.10-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.6.0/spark-catalyst_2.10-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.10/1.6.0/spark-catalyst_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-catalyst_2.10;1.6.0!spark-catalyst_2.10.jar (20366ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.parquet/parquet-column/1.7.0/jars/parquet-column.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.7.0/parquet-column-1.7.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.7.0/parquet-column-1.7.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.7.0/parquet-column-1.7.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.7.0/parquet-column-1.7.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-column/1.7.0/parquet-column-1.7.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-column;1.7.0!parquet-column.jar (3516ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.parquet/parquet-hadoop/1.7.0/jars/parquet-hadoop.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.7.0/parquet-hadoop-1.7.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.7.0/parquet-hadoop-1.7.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.7.0/parquet-hadoop-1.7.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.7.0/parquet-hadoop-1.7.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-hadoop/1.7.0/parquet-hadoop-1.7.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-hadoop;1.7.0!parquet-hadoop.jar (1188ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.scala-lang/scala-reflect/2.10.5/jars/scala-reflect.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.5/scala-reflect-2.10.5.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar (12258ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.codehaus.janino/janino/2.7.8/jars/janino.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/janino/janino/2.7.8/janino-2.7.8.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/janino/janino/2.7.8/janino-2.7.8.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/janino/janino/2.7.8/janino-2.7.8.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/janino/janino/2.7.8/janino-2.7.8.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/janino/janino/2.7.8/janino-2.7.8.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.janino#janino;2.7.8!janino.jar (2833ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.codehaus.janino/commons-compiler/2.7.8/jars/commons-compiler.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/2.7.8/commons-compiler-2.7.8.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/2.7.8/commons-compiler-2.7.8.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/2.7.8/commons-compiler-2.7.8.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/2.7.8/commons-compiler-2.7.8.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/2.7.8/commons-compiler-2.7.8.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.janino#commons-compiler;2.7.8!commons-compiler.jar (624ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.parquet/parquet-common/1.7.0/jars/parquet-common.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.7.0/parquet-common-1.7.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.7.0/parquet-common-1.7.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.7.0/parquet-common-1.7.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.7.0/parquet-common-1.7.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-common/1.7.0/parquet-common-1.7.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-common;1.7.0!parquet-common.jar (556ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.parquet/parquet-encoding/1.7.0/jars/parquet-encoding.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.7.0/parquet-encoding-1.7.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.7.0/parquet-encoding-1.7.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.7.0/parquet-encoding-1.7.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.7.0/parquet-encoding-1.7.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-encoding/1.7.0/parquet-encoding-1.7.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-encoding;1.7.0!parquet-encoding.jar (2754ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/commons-codec/commons-codec/1.5/jars/commons-codec.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/commons-codec/commons-codec/1.5/commons-codec-1.5.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] commons-codec#commons-codec;1.5!commons-codec.jar (736ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.parquet/parquet-generator/1.7.0/jars/parquet-generator.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-generator/1.7.0/parquet-generator-1.7.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-generator/1.7.0/parquet-generator-1.7.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-generator/1.7.0/parquet-generator-1.7.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-generator/1.7.0/parquet-generator-1.7.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-generator/1.7.0/parquet-generator-1.7.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-generator;1.7.0!parquet-generator.jar (478ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.parquet/parquet-format/2.3.0-incubating/jars/parquet-format.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-format;2.3.0-incubating!parquet-format.jar (1698ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.parquet/parquet-jackson/1.7.0/jars/parquet-jackson.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.7.0/parquet-jackson-1.7.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.7.0/parquet-jackson-1.7.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.7.0/parquet-jackson-1.7.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.7.0/parquet-jackson-1.7.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/parquet/parquet-jackson/1.7.0/parquet-jackson-1.7.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.parquet#parquet-jackson;1.7.0!parquet-jackson.jar (3711ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.scala-lang/scala-compiler/2.10.5/jars/scala-compiler.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.5/scala-compiler-2.10.5.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.5!scala-compiler.jar (55410ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.scala-lang/jline/2.10.5/jars/jline.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.5/jline-2.10.5.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.5/jline-2.10.5.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.5/jline-2.10.5.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.5/jline-2.10.5.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.5/jline-2.10.5.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#jline;2.10.5!jline.jar (1400ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scalap;2.10.0!scalap.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tachyonproject#tachyon-underfs-hdfs;0.8.2!tachyon-underfs-hdfs.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tachyonproject#tachyon-underfs-s3;0.8.2!tachyon-underfs-s3.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.tachyonproject#tachyon-underfs-local;0.8.2!tachyon-underfs-local.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-catalyst_2.10;1.6.0!spark-catalyst_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-column;1.7.0!parquet-column.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-hadoop;1.7.0!parquet-hadoop.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.janino#janino;2.7.8!janino.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.codehaus.janino#commons-compiler;2.7.8!commons-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-common;1.7.0!parquet-common.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-encoding;1.7.0!parquet-encoding.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.5!commons-codec.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-generator;1.7.0!parquet-generator.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-format;2.3.0-incubating!parquet-format.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.parquet#parquet-jackson;1.7.0!parquet-jackson.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.5!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.spark/spark-bagel_2.10/1.6.0/jars/spark-bagel_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-bagel_2.10/1.6.0/spark-bagel_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-bagel_2.10/1.6.0/spark-bagel_2.10-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-bagel_2.10/1.6.0/spark-bagel_2.10-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-bagel_2.10/1.6.0/spark-bagel_2.10-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-bagel_2.10/1.6.0/spark-bagel_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-bagel_2.10;1.6.0!spark-bagel_2.10.jar (690ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.spark/spark-mllib_2.10/1.6.0/jars/spark-mllib_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.6.0/spark-mllib_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.6.0/spark-mllib_2.10-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.6.0/spark-mllib_2.10-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.6.0/spark-mllib_2.10-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-mllib_2.10/1.6.0/spark-mllib_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-mllib_2.10;1.6.0!spark-mllib_2.10.jar (18085ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.apache.spark/spark-graphx_2.10/1.6.0/jars/spark-graphx_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.6.0/spark-graphx_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.6.0/spark-graphx_2.10-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.6.0/spark-graphx_2.10-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.6.0/spark-graphx_2.10-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/spark/spark-graphx_2.10/1.6.0/spark-graphx_2.10-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.spark#spark-graphx_2.10;1.6.0!spark-graphx_2.10.jar (2930ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.scalanlp/breeze_2.10/0.11.2/jars/breeze_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze_2.10/0.11.2/breeze_2.10-0.11.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalanlp#breeze_2.10;0.11.2!breeze_2.10.jar (52974ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.jpmml/pmml-model/1.1.15/jars/pmml-model.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jpmml/pmml-model/1.1.15/pmml-model-1.1.15.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/jpmml/pmml-model/1.1.15/pmml-model-1.1.15.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jpmml/pmml-model/1.1.15/pmml-model-1.1.15.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jpmml/pmml-model/1.1.15/pmml-model-1.1.15.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jpmml/pmml-model/1.1.15/pmml-model-1.1.15.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.jpmml#pmml-model;1.1.15!pmml-model.jar (2577ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.github.fommil.netlib/core/1.1.2/jars/core.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.fommil.netlib#core;1.1.2!core.jar (902ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/net.sourceforge.f2j/arpack_combined_all/0.1/jars/arpack_combined_all.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar (5357ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.scalanlp/breeze-macros_2.10/0.11.2/jars/breeze-macros_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.10/0.11.2/breeze-macros_2.10-0.11.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalanlp#breeze-macros_2.10;0.11.2!breeze-macros_2.10.jar (975ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/net.sf.opencsv/opencsv/2.3/jars/opencsv.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] net.sf.opencsv#opencsv;2.3!opencsv.jar (538ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.github.rwl/jtransforms/2.4.0/jars/jtransforms.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.rwl#jtransforms;2.4.0!jtransforms.jar (3218ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.spire-math/spire_2.10/0.7.4/jars/spire_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/spire-math/spire_2.10/0.7.4/spire_2.10-0.7.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.spire-math#spire_2.10;0.7.4!spire_2.10.jar (26127ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.spire-math/spire-macros_2.10/0.7.4/jars/spire-macros_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/spire-math/spire-macros_2.10/0.7.4/spire-macros_2.10-0.7.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.spire-math#spire-macros_2.10;0.7.4!spire-macros_2.10.jar (658ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.jpmml/pmml-agent/1.1.15/jars/pmml-agent.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jpmml/pmml-agent/1.1.15/pmml-agent-1.1.15.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/jpmml/pmml-agent/1.1.15/pmml-agent-1.1.15.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jpmml/pmml-agent/1.1.15/pmml-agent-1.1.15.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jpmml/pmml-agent/1.1.15/pmml-agent-1.1.15.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jpmml/pmml-agent/1.1.15/pmml-agent-1.1.15.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.jpmml#pmml-agent;1.1.15!pmml-agent.jar (442ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.jpmml/pmml-schema/1.1.15/jars/pmml-schema.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/jpmml/pmml-schema/1.1.15/pmml-schema-1.1.15.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/jpmml/pmml-schema/1.1.15/pmml-schema-1.1.15.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jpmml/pmml-schema/1.1.15/pmml-schema-1.1.15.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/jpmml/pmml-schema/1.1.15/pmml-schema-1.1.15.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/jpmml/pmml-schema/1.1.15/pmml-schema-1.1.15.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.jpmml#pmml-schema;1.1.15!pmml-schema.jar (438ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.sun.xml.bind/jaxb-impl/2.2.7/jars/jaxb-impl.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.7/jaxb-impl-2.2.7.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.7/jaxb-impl-2.2.7.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.7/jaxb-impl-2.2.7.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.7/jaxb-impl-2.2.7.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.7/jaxb-impl-2.2.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.sun.xml.bind#jaxb-impl;2.2.7!jaxb-impl.jar (4085ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.sun.xml.bind/jaxb-core/2.2.7/jars/jaxb-core.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.7/jaxb-core-2.2.7.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.7/jaxb-core-2.2.7.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.7/jaxb-core-2.2.7.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.7/jaxb-core-2.2.7.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-core/2.2.7/jaxb-core-2.2.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.sun.xml.bind#jaxb-core;2.2.7!jaxb-core.jar (1373ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.sun.xml.fastinfoset/FastInfoset/1.2.12/jars/FastInfoset.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.12/FastInfoset-1.2.12.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.12/FastInfoset-1.2.12.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.12/FastInfoset-1.2.12.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.12/FastInfoset-1.2.12.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.12/FastInfoset-1.2.12.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.sun.xml.fastinfoset#FastInfoset;1.2.12!FastInfoset.jar (1457ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/javax.xml.bind/jaxb-api/2.2.7/jars/jaxb-api.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.7/jaxb-api-2.2.7.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] javax.xml.bind#jaxb-api;2.2.7!jaxb-api.jar (772ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/com.sun.istack/istack-commons-runtime/2.16/jars/istack-commons-runtime.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/2.16/istack-commons-runtime-2.16.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/2.16/istack-commons-runtime-2.16.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/2.16/istack-commons-runtime-2.16.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/2.16/istack-commons-runtime-2.16.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/2.16/istack-commons-runtime-2.16.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.sun.istack#istack-commons-runtime;2.16!istack-commons-runtime.jar (477ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/javax.xml.bind/jsr173_api/1.0/jars/jsr173_api.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/javax/xml/bind/jsr173_api/1.0/jsr173_api-1.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/javax/xml/bind/jsr173_api/1.0/jsr173_api-1.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/xml/bind/jsr173_api/1.0/jsr173_api-1.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/javax/xml/bind/jsr173_api/1.0/jsr173_api-1.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/javax/xml/bind/jsr173_api/1.0/jsr173_api-1.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] javax.xml.bind#jsr173_api;1.0!jsr173_api.jar (579ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.scala-lang/scala-compiler/2.10.4/jars/scala-compiler.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar (54929ms)[0m
-[0m[[0mdebug[0m] [0m		tried /Users/maxday/.ivy2/local/org.scala-lang/jline/2.10.4/jars/jline.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.4/jline-2.10.4.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#jline;2.10.4!jline.jar (923ms)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2349ms :: artifacts dl 603409ms[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-bagel_2.10;1.6.0!spark-bagel_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-mllib_2.10;1.6.0!spark-mllib_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.spark#spark-graphx_2.10;1.6.0!spark-graphx_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalanlp#breeze_2.10;0.11.2!breeze_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jpmml#pmml-model;1.1.15!pmml-model.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.fommil.netlib#core;1.1.2!core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.f2j#arpack_combined_all;0.1!arpack_combined_all.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalanlp#breeze-macros_2.10;0.11.2!breeze-macros_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sf.opencsv#opencsv;2.3!opencsv.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.rwl#jtransforms;2.4.0!jtransforms.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.spire-math#spire_2.10;0.7.4!spire_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.spire-math#spire-macros_2.10;0.7.4!spire-macros_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jpmml#pmml-agent;1.1.15!pmml-agent.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jpmml#pmml-schema;1.1.15!pmml-schema.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.sun.xml.bind#jaxb-impl;2.2.7!jaxb-impl.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.sun.xml.bind#jaxb-core;2.2.7!jaxb-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.sun.xml.fastinfoset#FastInfoset;1.2.12!FastInfoset.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.2.7!jaxb-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.sun.istack#istack-commons-runtime;2.16!istack-commons-runtime.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.xml.bind#jsr173_api;1.0!jsr173_api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2221ms :: artifacts dl 51ms[0m
 [0m[[0mdebug[0m] [0m	report for default#streaming-twitter_2.10;1.6 compile produced in /Users/maxday/Desktop/spark.samples/streaming-twitter/target/resolution-cache/reports/default-streaming-twitter_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#streaming-twitter_2.10;1.6 runtime produced in /Users/maxday/Desktop/spark.samples/streaming-twitter/target/resolution-cache/reports/default-streaming-twitter_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#streaming-twitter_2.10;1.6 test produced in /Users/maxday/Desktop/spark.samples/streaming-twitter/target/resolution-cache/reports/default-streaming-twitter_2.10-test.xml[0m
@@ -13974,5 +13080,5 @@
 [0m[[0mdebug[0m] [0m	report for default#streaming-twitter_2.10;1.6 docs produced in /Users/maxday/Desktop/spark.samples/streaming-twitter/target/resolution-cache/reports/default-streaming-twitter_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#streaming-twitter_2.10;1.6 pom produced in /Users/maxday/Desktop/spark.samples/streaming-twitter/target/resolution-cache/reports/default-streaming-twitter_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#streaming-twitter_2.10;1.6 scala-tool produced in /Users/maxday/Desktop/spark.samples/streaming-twitter/target/resolution-cache/reports/default-streaming-twitter_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (2349ms resolve - 603409ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (2221ms resolve - 51ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

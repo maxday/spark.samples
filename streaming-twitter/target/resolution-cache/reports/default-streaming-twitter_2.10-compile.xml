@@ -7,7 +7,7 @@
 		revision="1.6"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161016212048"/>
+		date="20161016214139"/>
 	<dependencies>
 		<module organisation="com.google.guava" name="guava">
 			<revision name="14.0.1" status="release" pubdate="20130315005719" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="45">
@@ -87,7 +87,7 @@
 				<metadata-artifact status="no" details="" size="6647" time="0" location="/Users/maxday/.ivy2/cache/io.netty/netty/ivy-3.7.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom"/>
 				<caller organisation="org.apache.zookeeper" name="zookeeper" conf="compile, runtime" rev="3.7.0.Final" rev-constraint-default="3.7.0.Final" rev-constraint-dynamic="3.7.0.Final" callerrev="3.4.6"/>
 				<artifacts>
-					<artifact name="netty" type="bundle" ext="jar" status="successful" details="" size="1208356" time="9167" location="/Users/maxday/.ivy2/cache/io.netty/netty/bundles/netty-3.7.0.Final.jar">
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1208356" time="0" location="/Users/maxday/.ivy2/cache/io.netty/netty/bundles/netty-3.7.0.Final.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar"/>
 					</artifact>
 				</artifacts>
@@ -523,7 +523,7 @@
 				<metadata-artifact status="no" details="" size="2583" time="0" location="/Users/maxday/.ivy2/cache/junit/junit/ivy-3.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom"/>
 				<caller organisation="jline" name="jline" conf="compile, runtime" rev="3.8.1" rev-constraint-default="3.8.1" rev-constraint-dynamic="3.8.1" callerrev="0.9.94"/>
 				<artifacts>
-					<artifact name="junit" type="jar" ext="jar" status="successful" details="" size="121070" time="821" location="/Users/maxday/.ivy2/cache/junit/junit/jars/junit-3.8.1.jar">
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="121070" time="0" location="/Users/maxday/.ivy2/cache/junit/junit/jars/junit-3.8.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar"/>
 					</artifact>
 				</artifacts>

@@ -18,12 +18,16 @@
 package com.ibm.cds.spark.samples
 
 import org.apache.spark._
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+import org.apache.spark.SparkConf
+import org.apache.spark.ml.feature.{HashingTF, IDF, Tokenizer}
 
 object HelloSpark {
 
   //main method invoked when running as a standalone Spark Application
   def main(args: Array[String]) {
-    val conf = new SparkConf().setAppName("Hello Spark")
+    val conf = new org.apache.spark.SparkConf().setAppName("Hello Spark")
     val spark = new SparkContext(conf)
 
     println("Hello Spark Demo. Compute the mean and variance of a collection")
@@ -39,5 +43,37 @@ object HelloSpark {
     val totalNumber = math.min( countPerPartitions * partitions, Long.MaxValue).toInt;
     val rdd = spark.parallelize( 1 until totalNumber,partitions);
     (rdd.mean(), rdd.variance())
+  }
+
+  def mdv() {
+    val spark = org.apache.spark.sql.SparkSession
+      .builder
+      .appName("TfIdfExample")
+      .getOrCreate()
+
+    // $example on$
+    val sentenceData = spark.createDataFrame(Seq(
+      (0.0, "Hi I heard about Spark"),
+      (0.0, "I wish Java could use case classes"),
+      (1.0, "Logistic regression models are neat")
+    )).toDF("label", "sentence")
+
+    val tokenizer = new Tokenizer().setInputCol("sentence").setOutputCol("words")
+    val wordsData = tokenizer.transform(sentenceData)
+
+    val hashingTF = new HashingTF()
+      .setInputCol("words").setOutputCol("rawFeatures").setNumFeatures(20)
+
+    val featurizedData = hashingTF.transform(wordsData)
+    // alternatively, CountVectorizer can also be used to get term frequency vectors
+
+    val idf = new IDF().setInputCol("rawFeatures").setOutputCol("features")
+    val idfModel = idf.fit(featurizedData)
+
+    val rescaledData = idfModel.transform(featurizedData)
+    rescaledData.select("label", "features").show()
+    // $example off$
+
+    spark.stop()
   }
 }

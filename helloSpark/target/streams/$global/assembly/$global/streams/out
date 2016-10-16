@@ -1,0 +1,11 @@
+[0m[[0mdebug[0m] [0mCalculate mappings...[0m
+[0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0minfo[0m] [0mMerging files...[0m
+[0m[[0minfo[0m] [0mSHA-1: 3c0c85a86933b51db67cd0db2297a4ea26d4dd40[0m
+[0m[[0minfo[0m] [0mPackaging /Users/maxday/Desktop/spark.samples/helloSpark/target/scala-2.10/helloSpark-assembly-2.1.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	com/ibm/cds/spark/samples/HelloSpark$.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/maxday/Desktop/spark.samples/helloSpark/target/streams/$global/assemblyOption/$global/streams/assembly/531b139b220828296f9113550933791289e5299f_dir/com/ibm/cds/spark/samples/HelloSpark$.class[0m
+[0m[[0mdebug[0m] [0m	com/ibm/cds/spark/samples/HelloSpark.class[0m
+[0m[[0mdebug[0m] [0m	  /Users/maxday/Desktop/spark.samples/helloSpark/target/streams/$global/assemblyOption/$global/streams/assembly/531b139b220828296f9113550933791289e5299f_dir/com/ibm/cds/spark/samples/HelloSpark.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

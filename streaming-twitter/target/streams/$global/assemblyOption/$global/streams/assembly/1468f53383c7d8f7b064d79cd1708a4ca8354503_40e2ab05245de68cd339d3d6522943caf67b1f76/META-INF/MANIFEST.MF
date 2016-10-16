@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: monocle-macro
+Implementation-Version: 1.0.1
+Specification-Vendor: com.github.julien-truffaut
+Specification-Title: monocle-macro
+Implementation-Vendor-Id: com.github.julien-truffaut
+Specification-Version: 1.0.1
+Implementation-Vendor: com.github.julien-truffaut
+

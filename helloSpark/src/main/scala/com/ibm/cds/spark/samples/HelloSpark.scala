@@ -27,7 +27,7 @@ object HelloSpark {
 
   //main method invoked when running as a standalone Spark Application
   def main(args: Array[String]) {
-    val conf = new org.apache.spark.SparkConf().setAppName("Hello Spark")
+    val conf = new org.apache.spark.SparkConf().setAppName("Hello Spark").setMaster("local")
     val spark = new SparkContext(conf)
 
     println("Hello Spark Demo. Compute the mean and variance of a collection")

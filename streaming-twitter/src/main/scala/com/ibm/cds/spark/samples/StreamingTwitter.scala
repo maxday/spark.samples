@@ -106,7 +106,8 @@ object StreamingTwitter extends Logging{
     try{
       sqlContext = new SQLContext(sc)
       val keys = config.getConfig("tweets.key").split(",");
-      val stream = org.apache.spark.streaming.twitter.TwitterUtils.createStream( ssc, None );
+      val filters = Array("linkedin", "#linkedin");
+      val stream = org.apache.spark.streaming.twitter.TwitterUtils.createStream( ssc, None, filters );
 
       if ( schemaTweets == null ){
         val schemaString = "author date lang text lat:double long:double"

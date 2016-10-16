@@ -1,0 +1,466 @@
+[0m[[0minfo[0m] [0mIncluding from cache: messagehub.login-1.0.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: pixiedust.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: blaze-http_2.10-0.8.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: spark-streaming-twitter_2.10-1.6.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: blaze-core_2.10-0.8.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: twitter4j-stream-4.0.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: hpack-v1.0.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: alpn-api-1.1.2.v20150522.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: http4s-websocket_2.10-0.1.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: twitter4j-core-4.0.4.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: unused-1.0.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: log4s_2.10-1.1.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: slf4j-api-1.7.7.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: upickle_2.10-0.2.6.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: couchdb-scala_2.10-0.5.3.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jawn-parser_2.10-0.7.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: kafka-clients-0.9.0.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: parboiled_2.10-2.1.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: snappy-java-1.1.1.7.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: monocle-core_2.10-1.0.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: monocle-macro_2.10-1.0.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: kafka-log4j-appender-0.9.0.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: lz4-1.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: slf4j-log4j12-1.7.6.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: log4j-1.2.17.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jline-0.9.94.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: shapeless_2.10.4-2.1.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: junit-3.8.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: netty-3.7.0.Final.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: metrics-core-2.2.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: jopt-simple-3.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: quasiquotes_2.10-2.0.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scalaz-stream_2.10-0.7.1a.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: kafka_2.10-0.9.0.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: zkclient-0.7.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scalaz-concurrent_2.10-7.1.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scodec-bits_2.10-1.0.6.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: http4s-client_2.10-0.8.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: http4s-blazeclient_2.10-0.8.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: zookeeper-3.4.6.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: http4s-blazecore_2.10-0.8.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: guava-14.0.1.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scalaz-core_2.10-7.1.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: scalaz-effect_2.10-7.1.0.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: http4s-core_2.10-0.8.2.jar[0m
+[0m[[0minfo[0m] [0mIncluding from cache: base64-2.3.8.jar[0m
+[0m[[0mdebug[0m] [0mCalculate mappings...[0m
+[0m[[0minfo[0m] [0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0minfo[0m] [0mMerging files...[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/DEPENDENCIES' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[0mdebug[0m] [0mMerging 'META-INF/maven/org.spark-project.spark/unused/pom.properties' with strategy 'deduplicate'[0m
+[0m[[0mdebug[0m] [0mMerging 'META-INF/maven/org.spark-project.spark/unused/pom.xml' with strategy 'deduplicate'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/ibm/pixiedust/ChannelReceiver.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/ibm/pixiedust/PixiedustOutputListener.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'com/ibm/pixiedust/PixiedustOutputStream.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'org/apache/spark/unused/UnusedStubClass.class' with strategy 'first'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/Collections$$anonfun$mmap$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/Collections$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/Collections.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ForAttachment$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ForAttachment.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/FreshNameCreator$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/FreshNameCreator.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$$anon$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$$anon$2.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$CompatSupportApi$EmptyValDefLike$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$CompatSupportApi$Modifiers$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$CompatSupportApi$TermName$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$CompatSupportApi$TypeName$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$CompatSupportApi$class.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$CompatSupportApi.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$FlagsReprExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$ImplicitParamsExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$ScalaDotExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticAnnotatedTypeExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticAppliedExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticAssignExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticBlockExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticClassDefExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticCompoundTypeExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticDefDefExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticEmptyTypeTreeExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticExistentialTypeExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticFilterExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticForExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticFunctionExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticFunctionTypeExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticImportExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticMatchExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticNewExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticObjectDefExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticPackageObjectDefExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticPartialFunctionExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticPatDefExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticSelectTermExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticSelectTypeExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticSingletonTypeExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticTermIdentExtractor$class.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticTermIdentExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticTraitDefExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticTryExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticTupleExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticTypeAppliedExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticTypeIdentExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticTypeProjectionExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticValDefExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticValEqExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$SyntacticValFromExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi$class.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportApi.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$10.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$11.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$12.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$13.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$14.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$15.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$16.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$17.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$18.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$19.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$20.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$21.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$22.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$23.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$24.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$25.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$26.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$27.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$28.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$29.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$3.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$30.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$31.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$32.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$33.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$34.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$35.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$36.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$37.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$38.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$39.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$4.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$40.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$41.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$42.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$5.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$6.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$7.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$8.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl$$anon$9.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$ReificationSupportImpl.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableApi.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftArray$1$$anonfun$apply$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftArray$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftAsLiteral$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftConstant$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftEither$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftExpr$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftLeft$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftList$1$$anonfun$apply$3.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftList$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftMap$1$$anonfun$apply$4.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftMap$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftName$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftNil$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftNone$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftOption$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftRight$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftScalaSymbol$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftSet$1$$anonfun$apply$5.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftSet$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftSome$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTree$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple10$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple11$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple12$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple13$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple14$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple15$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple16$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple17$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple18$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple19$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple2$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple20$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple21$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple22$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple3$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple4$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple5$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple6$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple7$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple8$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTuple9$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftType$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftTypeTag$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftVector$1$$anonfun$apply$2.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$liftVector$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$$anonfun$scala$quasiquotes$QuasiquoteCompat$StandardLiftableImpl$$selectScala$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$Liftable$$anon$43.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$Liftable$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl$class.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardLiftableImpl.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableApi.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftConstant$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftName$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftPrimitive$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftScalaSymbol$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftString$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple10$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple11$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple12$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple13$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple14$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple15$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple16$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple17$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple18$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple19$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple2$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple20$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple21$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple22$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple3$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple4$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple5$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple6$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple7$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple8$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftTuple9$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$$anonfun$unliftType$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$Unliftable$$anon$44.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$Unliftable$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl$class.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$StandardUnliftableImpl.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$class.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat$stdnme$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/QuasiquoteCompat.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$$anonfun$mkAnnotation$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$$anonfun$mkCases$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$$anonfun$mkEarlyDef$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$$anonfun$mkImplicitParam$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$$anonfun$mkPackageStat$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$$anonfun$mkParam$1$$anonfun$apply$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$$anonfun$mkParam$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$$anonfun$mkRefineStat$3.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$$anonfun$mkTparams$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$$anonfun$selectTerm$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$FilterCall$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$FlagsRepr$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$FunctionClassRef$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$ImplicitParams$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$MaybeSelectApply$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$MaybeTypeTreeOriginal$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$MaybeTyped$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$MaybeUnchecked$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$ScalaDot$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$ScalaMemberRef$$anonfun$result$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$ScalaMemberRef.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticAnnotatedType$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticApplied$$anonfun$apply$2$$anonfun$apply$3.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticApplied$$anonfun$apply$2.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticApplied$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticAppliedType$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticAssign$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticBlock$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticClassDef$$anonfun$6.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticClassDef$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticCompoundType$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticDefDef$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticEmptyTypeTree$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticExistentialType$$anonfun$apply$10.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticExistentialType$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticFilter$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticFor$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticForYield$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticFunction$$anonfun$apply$8.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticFunction$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticFunctionType$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticImport$$anonfun$10.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticImport$$anonfun$9.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticImport$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticImport$Arrow$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticImport$NameSelector$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticImport$NameSelectorRepr$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticImport$RenameSelector$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticImport$RenameSelectorRepr$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticImport$UnimportSelector$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticImport$UnimportSelectorRepr$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticImport$WildcardSelector$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticImport$WildcardSelectorRepr$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticMatch$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticNew$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticObjectDef$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticPackageObjectDef$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticPartialFunction$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticPatDef$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticSelectTerm$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticSelectType$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticSingletonType$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticTermIdent$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticTraitDef$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticTry$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticTuple$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticTupleType$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticTypeApplied$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticTypeIdent$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticTypeProjection$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticValDef$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticValDefBase.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticValEq$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticValFrom$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntacticVarDef$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$SyntheticUnit$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$TupleClassRef$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$TupleCompanionRef$$anonfun$$init$$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$TupleCompanionRef$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnCheckIfRefutable$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnClosure$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnCtor$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnFilter$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnFlatMap$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnFor$$anonfun$unapply$2$$anonfun$8.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnFor$$anonfun$unapply$2.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnFor$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnForCombination.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnForeach$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnMap$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnMkTemplate$$anonfun$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnMkTemplate$$anonfun$2.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnMkTemplate$$anonfun$3.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnMkTemplate$$anonfun$4.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnMkTemplate$$anonfun$5.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnMkTemplate$$anonfun$ctorArgsCorrespondToFields$1$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnMkTemplate$$anonfun$indexOfCtor$1$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnMkTemplate$$anonfun$unapply$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnMkTemplate$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnPatSeq$$anonfun$7.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnPatSeq$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnPatSeqWithRes$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnSyntheticParam$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnVisitor$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$UnitClassRef$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$implodePatDefs$$anonfun$transform$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport$implodePatDefs$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/ReificationSupport.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$$anon$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$$anon$2.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$$anon$3.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$CommonNames$class.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$CommonNames.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$KeywordNames$class.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$KeywordNames.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$class.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$definitions$$anonfun$AbstractFunctionClass$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$definitions$$typecreator1$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$definitions$$typecreator1$2.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$definitions$$typecreator2$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$definitions$$typecreator3$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$definitions$$typecreator4$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$definitions$$typecreator5$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$definitions$$typecreator6$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$definitions$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$nme$$anonfun$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$nme$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$nme$raw$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$$anon$4.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$FreshNameExtractor$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$FreshNameExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$NameOps.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$RefTree$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$RichMirror.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$RichModifiers.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$RichPosition.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$RichSymbol$$anonfun$my_hasAnnotation$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$RichSymbol.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$RichTree.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$RichType$$anonfun$my_hasAnnotation$2.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$RichType.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$TermName$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$symbolTable$TypeName$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat$tpnme$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SymbolTableCompat.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SyntheticUnitAttachment$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/SyntheticUnitAttachment.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$10.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$11.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$12.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$13.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$14.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$15.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$16.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$17.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$18.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$19.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$2.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$20.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$21.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$3$$anonfun$apply$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$3.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$4.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$5.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$6.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$7.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$8.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$9.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$mkAttributedTypeApply$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$mkMethodCall$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$mkNullaryCall$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$$anonfun$mkUnattributedRef$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$Filter$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$GetVarTraverser$$anonfun$seenName$1$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$GetVarTraverser.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$ValEq$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$ValFrom$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$Yield$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen$patvarTransformer$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeGen.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$detectTypecheckedTree$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$filterBody$1$1$$anonfun$apply$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$filterBody$1$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$firstConstructor$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$foreachMethodParamAndArg$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$hasUntypedPreSuperFields$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$isExprSafeToInline$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$isSequenceValued$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$isSyntheticCase$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$mapMethodParamsAndArgs$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$mayBeTypePat$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$mayBeTypePat$2.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$preSuperFields$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$recoverBody$1$1$$anonfun$apply$2.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$recoverBody$1$1$$anonfun$apply$3.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$recoverBody$1$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$repeatedParams$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$scala$quasiquotes$TreeInfo$$isLeadingPredefImport$1$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$$anonfun$stripNamedApplyBlock$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$Applied$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$Applied.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$DynamicApplication$$anonfun$$init$$2.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$DynamicApplication$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$DynamicApplicationExtractor.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$DynamicApplicationNamed$$anonfun$$init$$3.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$DynamicApplicationNamed$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$DynamicUpdate$$anonfun$$init$$1.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$DynamicUpdate$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$IsFalse$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$IsTrue$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$SeeThroughBlocks.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$StripCast$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$Unapplied$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo$WildcardStarArg$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/TreeInfo.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/package$.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/quasiquotes/package.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/reflect/api/Universe$Liftable.class' with strategy 'discard'[0m
+[0m[[33mwarn[0m] [0mMerging 'scala/reflect/api/Universe$Unliftable.class' with strategy 'discard'[0m
+[0m[[0minfo[0m] [0mStrategy 'deduplicate' was applied to 2 files (Run the task at debug level to see details)[0m
+[0m[[33mwarn[0m] [0mStrategy 'discard' was applied to 410 files[0m
+[0m[[33mwarn[0m] [0mStrategy 'first' was applied to a file[0m
+[0m[[0minfo[0m] [0mAssembly up to date: /Users/kroosti/dev/sparkathon/ownCopy/streaming-twitter/target/scala-2.10/streaming-twitter-assembly-1.6.jar[0m

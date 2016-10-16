@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Vendor: org.http4s
+Implementation-Title: blaze-http
+Implementation-Version: 0.8.2
+Implementation-Vendor-Id: org.http4s
+Specification-Vendor: org.http4s
+Specification-Title: blaze-http
+Implementation-URL: https://github.com/http4s/blaze
+Specification-Version: 0.8.2
+

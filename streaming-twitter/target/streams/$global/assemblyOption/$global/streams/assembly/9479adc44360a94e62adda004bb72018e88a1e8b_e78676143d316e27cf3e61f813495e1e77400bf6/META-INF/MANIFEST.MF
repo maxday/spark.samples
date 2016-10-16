@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: upickle
+Implementation-Version: 0.2.6
+Specification-Vendor: com.lihaoyi
+Specification-Title: upickle
+Implementation-Vendor-Id: com.lihaoyi
+Specification-Version: 0.2.6
+Implementation-Vendor: com.lihaoyi
+

@@ -1,17 +1,1 @@
-[0m[[0minfo[0m] [0mPackaging /Users/maxday/Desktop/spark.samples/helloSpark/target/scala-2.10/hellospark_2.10-2.1.jar ...[0m
-[0m[[0mdebug[0m] [0mInput file mappings:[0m
-[0m[[0mdebug[0m] [0m	com/ibm/cds/spark/samples[0m
-[0m[[0mdebug[0m] [0m	  /Users/maxday/Desktop/spark.samples/helloSpark/target/scala-2.10/classes/com/ibm/cds/spark/samples[0m
-[0m[[0mdebug[0m] [0m	com/ibm/cds/spark/samples/HelloSpark.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/maxday/Desktop/spark.samples/helloSpark/target/scala-2.10/classes/com/ibm/cds/spark/samples/HelloSpark.class[0m
-[0m[[0mdebug[0m] [0m	com/ibm/cds/spark[0m
-[0m[[0mdebug[0m] [0m	  /Users/maxday/Desktop/spark.samples/helloSpark/target/scala-2.10/classes/com/ibm/cds/spark[0m
-[0m[[0mdebug[0m] [0m	com/ibm/cds[0m
-[0m[[0mdebug[0m] [0m	  /Users/maxday/Desktop/spark.samples/helloSpark/target/scala-2.10/classes/com/ibm/cds[0m
-[0m[[0mdebug[0m] [0m	com/ibm/cds/spark/samples/HelloSpark$.class[0m
-[0m[[0mdebug[0m] [0m	  /Users/maxday/Desktop/spark.samples/helloSpark/target/scala-2.10/classes/com/ibm/cds/spark/samples/HelloSpark$.class[0m
-[0m[[0mdebug[0m] [0m	com/ibm[0m
-[0m[[0mdebug[0m] [0m	  /Users/maxday/Desktop/spark.samples/helloSpark/target/scala-2.10/classes/com/ibm[0m
-[0m[[0mdebug[0m] [0m	com[0m
-[0m[[0mdebug[0m] [0m	  /Users/maxday/Desktop/spark.samples/helloSpark/target/scala-2.10/classes/com[0m
-[0m[[0minfo[0m] [0mDone packaging.[0m
+[0m[[0mdebug[0m] [0mJar uptodate: /Users/maxday/Desktop/spark.samples/helloSpark/target/scala-2.10/hellospark_2.10-2.1.jar[0m

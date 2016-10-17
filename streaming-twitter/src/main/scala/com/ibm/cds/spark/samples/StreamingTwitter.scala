@@ -106,7 +106,7 @@ object StreamingTwitter extends Logging {
     try{
       sqlContext = new SQLContext(sc)
       val keys = config.getConfig("tweets.key").split(",");
-      val filters = Array("linkedin", "#linkedin");
+      val filters = Array("interflora", "#interflora");
       val stream = org.apache.spark.streaming.twitter.TwitterUtils.createStream( ssc, None, filters );
 
       if ( schemaTweets == null ){
@@ -211,7 +211,7 @@ object StreamingTwitter extends Logging {
     }
     ssc.start()
 
-    println("Twitter stream started LinkedIn only");
+    println("Twitter stream started Interflora only");
     println("Tweets are collected real-time and analyzed")
     println("To stop the streaming and start interacting with the data use: StreamingTwitter.stopTwitterStreaming")
 

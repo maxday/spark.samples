@@ -136,7 +136,30 @@ object StreamingTwitter extends Logging {
       val tweets = stream.filter {
         t =>
           val tags = t.getText.split(" ").map(_.toLowerCase)
-          tags.contains("tutorial")
+          tags.contains("tutorial") ||
+          tags.contains("practical") ||
+          tags.contains("explained") ||
+          tags.contains("building") ||
+          tags.contains("learn") ||
+          tags.contains("comprehensive") ||
+          tags.contains("popular") ||
+          tags.contains("step") ||
+          tags.contains("debug") ||
+          tags.contains("debugging") ||
+          tags.contains("things") ||
+          tags.contains("making") ||
+          tags.contains("step-by-step") ||
+          tags.contains("guide") ||
+          tags.contains("build") ||
+          tags.contains("built") ||
+          tags.contains("make") ||
+          tags.contains("how") ||
+          tags.contains("popular") ||
+          tags.contains("learning") ||
+          tags.contains("learnt") ||
+          tags.contains("tips") ||
+          tags.contains("understanding") ||
+          tags.contains("modern")
       }
 
 
@@ -216,7 +239,7 @@ object StreamingTwitter extends Logging {
     }
     ssc.start()
 
-    println("Twitter stream started javascript + filter only-only");
+    println("Twitter stream started javascript + filter only-only-only");
     println("Tweets are collected real-time and analyzed")
     println("To stop the streaming and start interacting with the data use: StreamingTwitter.stopTwitterStreaming")
 

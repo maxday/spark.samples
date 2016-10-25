@@ -108,8 +108,8 @@ object StreamingTwitter extends Logging {
       val keys = config.getConfig("tweets.key").split(",");
       val filters = Array("javascript", "#javascript");
 
-      val stream = org.apache.spark.streaming.twitter.TwitterUtils.createStream( ssc, None );
-      stream.filter(_.getText.contains("javascript")).filter(_.getText.contains("tutorial"));
+      val stream = org.apache.spark.streaming.twitter.TwitterUtils.createStream( ssc, None, filters );
+
 
       if ( schemaTweets == null ){
         val schemaString = "id_str author date lang text lat:double long:double"
@@ -132,11 +132,13 @@ object StreamingTwitter extends Logging {
             )
           )
       }
-      val tweets = stream.filter { status =>
-        Option(status.getUser).flatMap[String] {
-          u => Option(u.getLang)
-        }.getOrElse("").startsWith("en") && CharMatcher.ASCII.matchesAllOf(status.getText) && ( keys.isEmpty || keys.exists{status.getText.contains(_)})
+
+      val tweets = stream.filter {
+        t =>
+          val tags = t.getText.split(" ").map(_.toLowerCase)
+          tags.contains("tutorial")
       }
+
 
       lazy val client = PooledHttp1Client()
       val rowTweets = tweets.map(status=> {
@@ -214,7 +216,7 @@ object StreamingTwitter extends Logging {
     }
     ssc.start()
 
-    println("Twitter  stream started javascript + filter only");
+    println("Twitter stream started javascript + filter only-only");
     println("Tweets are collected real-time and analyzed")
     println("To stop the streaming and start interacting with the data use: StreamingTwitter.stopTwitterStreaming")
 

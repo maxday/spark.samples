@@ -78,7 +78,7 @@ object StreamingTwitter extends Logging {
   }
 
   def startTwitterStreaming( sc: SparkContext, stopAfter: Duration = Seconds(0) ){
-    println("Starting twitter stream");
+    println("Starting twitter stream 2");
     if ( ssc != null ){
       println("Twitter Stream already running");
       println("Please use stopTwitterStreaming() first and try again");
@@ -162,6 +162,8 @@ object StreamingTwitter extends Logging {
           tags.contains("tips") ||
           tags.contains("understanding") ||
           tags.contains("modern")
+          val links = t.getURLEntities
+          links.length > 0
       }
 
 
@@ -171,10 +173,14 @@ object StreamingTwitter extends Logging {
 
         var colValues = Array[Any](
           status.getId.toString,
+          status.getRetweetCount, //nb of retweet
           status.getUser.getName, //author
+          status.getUser.getScreenName, //twitter handle
           status.getCreatedAt.toString,   //date
           status.getUser.getLang,  //Lang
           status.getText,               //text
+          status.getURLEntities, //URLs
+          status.getHashtagEntities(), //hashags array
           Option(status.getGeoLocation).map{ _.getLatitude}.getOrElse(0.0),      //lat
           Option(status.getGeoLocation).map{_.getLongitude}.getOrElse(0.0)    //long
           //exception

@@ -4,10 +4,10 @@
 	<info
 		organisation="default"
 		module="streaming-twitter_2.10"
-		revision="1.6.1"
+		revision="1.6.2"
 		conf="plugin"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161027013212"/>
+		date="20161027013348"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

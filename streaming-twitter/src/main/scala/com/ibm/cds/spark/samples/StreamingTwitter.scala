@@ -78,7 +78,7 @@ object StreamingTwitter extends Logging {
   }
 
   def startTwitterStreaming( sc: SparkContext, stopAfter: Duration = Seconds(0) ){
-    println("Starting twitter stream 2");
+    println("Starting twitter stream 3");
     if ( ssc != null ){
       println("Twitter Stream already running");
       println("Please use stopTwitterStreaming() first and try again");
@@ -114,7 +114,7 @@ object StreamingTwitter extends Logging {
 
 
       if ( schemaTweets == null ){
-        val schemaString = "id_str author date lang text lat:double long:double"
+        val schemaString = "id_str retweetCount author screenName date lang text entities hashtags lat:double long:double"
         schemaTweets =
           StructType(
             schemaString.split(" ").map(

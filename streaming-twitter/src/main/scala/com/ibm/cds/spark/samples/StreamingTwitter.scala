@@ -241,7 +241,9 @@ object StreamingTwitter extends Logging {
     }
     ssc.start()
 
-    println("Twitter stream started javascript + filter only-only-only");
+    println("Twitter stream started javascript + filter");
+    println(config.getConfig("filter.first"));
+    println(config.getConfig("filter.second"));
     println("Tweets are collected real-time and analyzed")
     println("To stop the streaming and start interacting with the data use: StreamingTwitter.stopTwitterStreaming")
 

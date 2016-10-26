@@ -1,6 +1,6 @@
 name := "streaming-twitter"
 
-version := "1.6"
+version := "1.6.1"
 
 scalaVersion := "2.10.4"
 

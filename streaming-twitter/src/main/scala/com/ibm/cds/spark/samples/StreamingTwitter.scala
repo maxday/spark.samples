@@ -78,7 +78,7 @@ object StreamingTwitter extends Logging {
   }
 
   def startTwitterStreaming( sc: SparkContext, stopAfter: Duration = Seconds(0) ){
-    println("Starting twitter stream 5");
+    println("Starting twitter stream");
     if ( ssc != null ){
       println("Twitter Stream already running");
       println("Please use stopTwitterStreaming() first and try again");
@@ -114,7 +114,7 @@ object StreamingTwitter extends Logging {
 
 
       if ( schemaTweets == null ){
-        val schemaString = "id_str retweetCount author screenName date lang text entities hashtags lat:double long:double"
+        val schemaString = "id_str author date lang text lat:double long:double"
         schemaTweets =
           StructType(
             schemaString.split(" ").map(
@@ -170,16 +170,13 @@ object StreamingTwitter extends Logging {
       lazy val client = PooledHttp1Client()
       val rowTweets = tweets.map(status=> {
         val sentiment = ToneAnalyzer.computeSentiment( client, status, broadcastVar )
+
         var colValues = Array[Any](
           status.getId.toString,
-          status.getRetweetCount, //nb of retweet
           status.getUser.getName, //author
-          status.getUser.getScreenName, //twitter handle
           status.getCreatedAt.toString,   //date
           status.getUser.getLang,  //Lang
           status.getText,               //text
-          status.getURLEntities.toString, //URLs
-          status.getHashtagEntities.toString, //hashags array
           Option(status.getGeoLocation).map{ _.getLatitude}.getOrElse(0.0),      //lat
           Option(status.getGeoLocation).map{_.getLongitude}.getOrElse(0.0)    //long
           //exception

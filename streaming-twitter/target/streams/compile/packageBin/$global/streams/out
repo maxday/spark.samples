@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mPackaging /Users/maxday/Desktop/spark.samples/streaming-twitter/target/scala-2.10/streaming-twitter_2.10-1.6.jar ...[0m
+[0m[[0minfo[0m] [0mPackaging /Users/maxday/Desktop/spark.samples/streaming-twitter/target/scala-2.10/streaming-twitter_2.10-1.6.1.jar ...[0m
 [0m[[0mdebug[0m] [0mInput file mappings:[0m
 [0m[[0mdebug[0m] [0m	com/ibm/cds/spark/samples/StreamingTwitter$$anonfun$13$$anonfun$15$$anonfun$16.class[0m
 [0m[[0mdebug[0m] [0m	  /Users/maxday/Desktop/spark.samples/streaming-twitter/target/scala-2.10/classes/com/ibm/cds/spark/samples/StreamingTwitter$$anonfun$13$$anonfun$15$$anonfun$16.class[0m

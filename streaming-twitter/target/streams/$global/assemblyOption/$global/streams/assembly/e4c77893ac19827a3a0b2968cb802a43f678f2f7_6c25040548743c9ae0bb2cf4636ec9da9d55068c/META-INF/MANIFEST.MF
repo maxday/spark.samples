@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Vendor: com.ibm
+Implementation-Title: couchdb-scala
+Implementation-Version: 0.5.3
+Implementation-Vendor-Id: com.ibm
+Specification-Vendor: com.ibm
+Specification-Title: couchdb-scala
+Implementation-URL: https://github.com/beloglazov/couchdb-scala
+Specification-Version: 0.5.3
+Main-Class: com.ibm.couchdb.examples.Basic
+

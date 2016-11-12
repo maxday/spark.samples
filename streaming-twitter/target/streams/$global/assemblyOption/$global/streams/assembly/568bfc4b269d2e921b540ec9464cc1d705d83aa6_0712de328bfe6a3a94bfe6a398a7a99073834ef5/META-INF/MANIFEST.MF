@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: http4s-core
+Implementation-Version: 0.8.2
+Specification-Vendor: org.http4s
+Specification-Title: http4s-core
+Implementation-Vendor-Id: org.http4s
+Specification-Version: 0.8.2
+Implementation-URL: https://github.com/http4s/http4s
+Implementation-Vendor: org.http4s
+

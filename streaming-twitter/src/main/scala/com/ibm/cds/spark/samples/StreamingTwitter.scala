@@ -54,69 +54,74 @@ import org.apache.spark.Logging
 /**
  * @author dtaieb
  */
-object StreamingTwitter extends Logging{
+object StreamingTwitter extends Logging {
   var ssc: StreamingContext = null
   var sqlContext: SQLContext = null
   var workingRDD: RDD[Row] = null
   var schemaTweets : StructType = null
   val logger: Logger = Logger.getLogger( "com.ibm.cds.spark.samples.StreamingTwitter" )
-  
+
   //main method invoked when running as a standalone Spark Application
   def main(args: Array[String]) {
-    
+
     val conf = new SparkConf().setAppName("Spark Streaming Twitter Demo")
     val sc = new SparkContext(conf)
     startTwitterStreaming(sc, Seconds(10));
   }
-  
+
   //Hold configuration key/value pairs
   val config = new DemoConfig
-  
+
   //Wrapper api for Notebook access
   def setConfig(key:String, value:String){
     config.setConfig(key, value)
   }
-  
+
   def startTwitterStreaming( sc: SparkContext, stopAfter: Duration = Seconds(0) ){
-    println("Starting twitter stream");
+    println("Starting twitter stream 0.3");
     if ( ssc != null ){
       println("Twitter Stream already running");
       println("Please use stopTwitterStreaming() first and try again");
       return;
     }
-    
+
     if ( !config.validateConfiguration(DemoConfig.CHECKPOINT_DIR_KEY) ){
       println("Unable to validate config")
       return;
     }
-    
+
     Logger.getLogger("org.apache.spark").setLevel(Level.OFF)
-    
+
     workingRDD = sc.emptyRDD
     //Broadcast the config to each worker node
     val broadcastVar = sc.broadcast(config.toImmutableMap)
-    
+
     var canStopTwitterStream = true
     var batchesProcessed=0
-    
+
     ssc = new StreamingContext( sc, Seconds(5) )
-    
+
     ssc.addStreamingListener( new StreamingListener )
-    
+
     try{
       sqlContext = new SQLContext(sc)
       val keys = config.getConfig("tweets.key").split(",");
-      val stream = org.apache.spark.streaming.twitter.TwitterUtils.createStream( ssc, None );
-      
+      val firstFilter = config.getConfig("filter.first");
+      val secondFilter = config.getConfig("filter.second");
+      val filters = Array(firstFilter, secondFilter);
+
+      val stream = org.apache.spark.streaming.twitter.TwitterUtils.createStream( ssc, None, filters );
+
+
       if ( schemaTweets == null ){
-        val schemaString = "author userid date lang text lat:double long:double"
+        val schemaString = "id_str author fav_count retweet_count screen_name date lang text hashtags urls lat:double long:double"
         schemaTweets =
           StructType(
             schemaString.split(" ").map(
               fieldName => {
                 val ar = fieldName.split(":")
                 StructField(
-                    ar.lift(0).get, 
+                    ar.lift(0).get,
                     ar.lift(1).getOrElse("string") match{
                       case "int" => IntegerType
                       case "double" => DoubleType
@@ -124,32 +129,39 @@ object StreamingTwitter extends Logging{
                     },
                     true)
               }
-            ).union( 
+            ).union(
                 ToneAnalyzer.sentimentFactors.map( f => StructField( f._1, DoubleType )).toArray[StructField]
             )
           )
       }
-      val tweets = stream.filter { status => 
-        Option(status.getUser).flatMap[String] { 
-          u => Option(u.getLang) 
-        }.getOrElse("").startsWith("en") && CharMatcher.ASCII.matchesAllOf(status.getText) && ( keys.isEmpty || keys.exists{status.getText.contains(_)})
+
+      val tweets = stream.filter {
+        t =>
+          val links = t.getMediaEntities
+          links.length > 0
       }
-      
+
+
       lazy val client = PooledHttp1Client()
       val rowTweets = tweets.map(status=> {
         val sentiment = ToneAnalyzer.computeSentiment( client, status, broadcastVar )
-        
+
         var colValues = Array[Any](
+          status.getId.toString,
           status.getUser.getName, //author
-          status.getUser.getScreenName, //Userid
+          status.getFavoriteCount.toString,
+          status.getRetweetCount.toString,
+          status.getUser.getScreenName,
           status.getCreatedAt.toString,   //date
           status.getUser.getLang,  //Lang
           status.getText,               //text
+          status.getHashtagEntities().map(_.getText()).mkString(" "),
+          status.getMediaEntities().map(_.getText()).mkString(" "),
           Option(status.getGeoLocation).map{ _.getLatitude}.getOrElse(0.0),      //lat
           Option(status.getGeoLocation).map{_.getLongitude}.getOrElse(0.0)    //long
           //exception
         )
-        
+
         var scoreMap : Map[String, Double] = Map()
         if ( sentiment != null ){
           for( toneCategory <- Option(sentiment.tone_categories).getOrElse( Seq() )){
@@ -158,7 +170,7 @@ object StreamingTwitter extends Logging{
             }
           }
         }
-             
+
         colValues = colValues ++ ToneAnalyzer.sentimentFactors.map { f => (BigDecimal(scoreMap.get(f._2).getOrElse(0.0)).setScale(2, BigDecimal.RoundingMode.HALF_UP).toDouble) * 100.0  }
         //Return [Row, (sentiment, status)]
         (Row(colValues.toArray:_*),(sentiment, status))
@@ -172,15 +184,15 @@ object StreamingTwitter extends Logging{
           if( rdd.count > 0 ){
             batchesProcessed += 1
             workingRDD = sc.parallelize( rdd.map( t => t._1 ).collect()).union( workingRDD )
-        
+
             val saveToCloudant = broadcastVar.value.get("cloudant.save").get.toBoolean
             if ( saveToCloudant ){
-              rdd.foreachPartition { iterator => 
+              rdd.foreachPartition { iterator =>
                 var db: CouchDbApi = null;
-                val couch = CouchDb( broadcastVar.value.get("cloudant.hostName").get, 
-                    broadcastVar.value.get("cloudant.port").get.toInt, 
-                    broadcastVar.value.get("cloudant.https").get.toBoolean, 
-                    broadcastVar.value.get("cloudant.username").get, 
+                val couch = CouchDb( broadcastVar.value.get("cloudant.hostName").get,
+                    broadcastVar.value.get("cloudant.port").get.toInt,
+                    broadcastVar.value.get("cloudant.https").get.toBoolean,
+                    broadcastVar.value.get("cloudant.username").get,
                     broadcastVar.value.get("cloudant.password").get
                 );
                 val dbName = "spark-streaming-twitter"
@@ -202,7 +214,7 @@ object StreamingTwitter extends Logging{
           case e: Exception => logError(e.getMessage, e )
         }finally{
             canStopTwitterStream = true
-        }        
+        }
       })
 
     }catch{
@@ -210,11 +222,14 @@ object StreamingTwitter extends Logging{
       return
     }
     ssc.start()
-    
-    println("Twitter stream started");
+
+    println("Twitter stream started javascript + filter");
+    println(config.getConfig("filter.first"));
+    println(config.getConfig("filter.second"));
+    println("----");
     println("Tweets are collected real-time and analyzed")
     println("To stop the streaming and start interacting with the data use: StreamingTwitter.stopTwitterStreaming")
-    
+
     if ( !stopAfter.isZero ){
       //Automatically stop it after 10s
       new Thread( new Runnable {
@@ -238,65 +253,65 @@ object StreamingTwitter extends Logging{
       }).start
     }
   }
-  
-  def saveTweetToCloudant(client: Client, db: CouchDbApi, status:Status, sentiment: ToneAnalyzer.Sentiment) : Status = {    
+
+  def saveTweetToCloudant(client: Client, db: CouchDbApi, status:Status, sentiment: ToneAnalyzer.Sentiment) : Status = {
     if ( db != null){
       logger.trace("Creating new Tweet in Couch Database " + status.getText())
-      val task:Task[Res.DocOk] = db.docs.create( 
+      val task:Task[Res.DocOk] = db.docs.create(
           ToneAnalyzer.Tweet(
-              status.getUser().getName, 
+              status.getUser().getName,
               status.getCreatedAt().toString(),
               status.getUser().getLang(),
               status.getText(),
-              ToneAnalyzer.Geo( 
-                  Option(status.getGeoLocation).map{ _.getLatitude}.getOrElse(0.0), 
-                  Option(status.getGeoLocation).map{_.getLongitude}.getOrElse(0.0) 
+              ToneAnalyzer.Geo(
+                  Option(status.getGeoLocation).map{ _.getLatitude}.getOrElse(0.0),
+                  Option(status.getGeoLocation).map{_.getLongitude}.getOrElse(0.0)
               ),
               sentiment
-          ) 
+          )
       )
-      
+
       // Execute the actions and process the result
       task.attemptRun match {
         case -\/(e) => logError(e.getMessage, e );
         case \/-(a) => logger.trace("Successfully create new Tweet in Couch Database " + status.getText() )
       }
     }
-      
+
     status
   }
-  
+
   def createTwitterDataFrames(sc: SparkContext) : (SQLContext, DataFrame) = {
     if ( workingRDD.count <= 0 ){
       println("No data receive. Please start the Twitter stream again to collect data")
       return null
     }
-    
+
     try{
       val df = sqlContext.createDataFrame( workingRDD, schemaTweets )
       df.registerTempTable("tweets")
-      
+
       println("A new table named tweets with " + df.count() + " records has been correctly created and can be accessed through the SQLContext variable")
       println("Here's the schema for tweets")
       df.printSchema()
-      
+
       (sqlContext, df)
     }catch{
       case e: Exception => {logError(e.getMessage, e ); return null}
     }
   }
- 
+
   def stopTwitterStreaming(){
     if ( ssc == null){
       println("No Twitter stream to stop");
       return;
     }
-    
+
     println("Stopping Twitter stream. Please wait this may take a while")
     ssc.stop(stopSparkContext = false, stopGracefully = false)
     ssc = null
     println("Twitter stream stopped");
-    
+
     println( "You can now create a sqlContext and DataFrame with " + workingRDD.count + " Tweets created. Sample usage: ")
     println("val (sqlContext, df) = com.ibm.cds.spark.samples.StreamingTwitter.createTwitterDataFrames(sc)")
     println("df.printSchema")
